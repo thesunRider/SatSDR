@@ -1,0 +1,113 @@
+LTspice 24.0.12 for Windows
+Circuit: * D:\projects\electronics\SatSDR\simulation\mc1496_balanced_mixer.asc
+Start Time: Mon May 11 02:50:20 2026
+solver = Normal
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = modified trap
+WARNING: Node N031 is floating.
+WARNING: Node N033 is floating.
+WARNING: Node N035 is floating.
+WARNING: Node N037 is floating.
+
+WARNING: Less than two connections to node nc_01.  This node is used by r:u1:_r4.
+WARNING: Less than two connections to node nc_02.  This node is used by r:u1:_r5.
+WARNING: Less than two connections to node nc_03.  This node is used by r:u1:_r6.
+WARNING: Less than two connections to node nc_04.  This node is used by r:u1:_r7.
+Direct Newton iteration for .op point succeeded.
+Ignoring empty pin current: Ix(_q1:1)
+Ignoring empty pin current: Ix(_q1:2)
+Ignoring empty pin current: Ix(_q1:3)
+Ignoring empty pin current: Ix(_q1:4)
+Ignoring empty pin current: Ix(_q3:1)
+Ignoring empty pin current: Ix(_q3:2)
+Ignoring empty pin current: Ix(_q3:3)
+Ignoring empty pin current: Ix(_q3:4)
+Ignoring empty pin current: Ix(_q2:1)
+Ignoring empty pin current: Ix(_q2:2)
+Ignoring empty pin current: Ix(_q2:3)
+Ignoring empty pin current: Ix(_q2:4)
+Ignoring empty pin current: Ix(_q4:1)
+Ignoring empty pin current: Ix(_q4:2)
+Ignoring empty pin current: Ix(_q4:3)
+Ignoring empty pin current: Ix(_q4:4)
+Ignoring empty pin current: Ix(_q5:1)
+Ignoring empty pin current: Ix(_q5:2)
+Ignoring empty pin current: Ix(_q5:3)
+Ignoring empty pin current: Ix(_q5:4)
+Ignoring empty pin current: Ix(_q6:1)
+Ignoring empty pin current: Ix(_q6:2)
+Ignoring empty pin current: Ix(_q6:3)
+Ignoring empty pin current: Ix(_q6:4)
+Ignoring empty pin current: Ix(_q7:1)
+Ignoring empty pin current: Ix(_q7:2)
+Ignoring empty pin current: Ix(_q7:3)
+Ignoring empty pin current: Ix(_q7:4)
+Ignoring empty pin current: Ix(_q8:1)
+Ignoring empty pin current: Ix(_q8:2)
+Ignoring empty pin current: Ix(_q8:3)
+Ignoring empty pin current: Ix(_q8:4)
+Ignoring empty pin current: Ix(_q9:1)
+Ignoring empty pin current: Ix(_q9:2)
+Ignoring empty pin current: Ix(_q9:3)
+Ignoring empty pin current: Ix(_q9:4)
+Ignoring empty pin current: Ix(u1:pin1)
+Ignoring empty pin current: Ix(u1:pin2)
+Ignoring empty pin current: Ix(u1:pin3)
+Ignoring empty pin current: Ix(u1:pin4)
+Ignoring empty pin current: Ix(u1:pin5)
+Ignoring empty pin current: Ix(u1:pin6)
+Ignoring empty pin current: Ix(u1:pin8)
+Ignoring empty pin current: Ix(u1:pin10)
+Ignoring empty pin current: Ix(u1:pin12)
+Ignoring empty pin current: Ix(_q1:1)
+Ignoring empty pin current: Ix(_q1:2)
+Ignoring empty pin current: Ix(_q1:3)
+Ignoring empty pin current: Ix(_q1:4)
+Ignoring empty pin current: Ix(_q3:1)
+Ignoring empty pin current: Ix(_q3:2)
+Ignoring empty pin current: Ix(_q3:3)
+Ignoring empty pin current: Ix(_q3:4)
+Ignoring empty pin current: Ix(_q2:1)
+Ignoring empty pin current: Ix(_q2:2)
+Ignoring empty pin current: Ix(_q2:3)
+Ignoring empty pin current: Ix(_q2:4)
+Ignoring empty pin current: Ix(_q4:1)
+Ignoring empty pin current: Ix(_q4:2)
+Ignoring empty pin current: Ix(_q4:3)
+Ignoring empty pin current: Ix(_q4:4)
+Ignoring empty pin current: Ix(_q5:1)
+Ignoring empty pin current: Ix(_q5:2)
+Ignoring empty pin current: Ix(_q5:3)
+Ignoring empty pin current: Ix(_q5:4)
+Ignoring empty pin current: Ix(_q6:1)
+Ignoring empty pin current: Ix(_q6:2)
+Ignoring empty pin current: Ix(_q6:3)
+Ignoring empty pin current: Ix(_q6:4)
+Ignoring empty pin current: Ix(_q7:1)
+Ignoring empty pin current: Ix(_q7:2)
+Ignoring empty pin current: Ix(_q7:3)
+Ignoring empty pin current: Ix(_q7:4)
+Ignoring empty pin current: Ix(_q8:1)
+Ignoring empty pin current: Ix(_q8:2)
+Ignoring empty pin current: Ix(_q8:3)
+Ignoring empty pin current: Ix(_q8:4)
+Ignoring empty pin current: Ix(_q9:1)
+Ignoring empty pin current: Ix(_q9:2)
+Ignoring empty pin current: Ix(_q9:3)
+Ignoring empty pin current: Ix(_q9:4)
+Ignoring empty pin current: Ix(u1:pin1)
+Ignoring empty pin current: Ix(u1:pin2)
+Ignoring empty pin current: Ix(u1:pin3)
+Ignoring empty pin current: Ix(u1:pin4)
+Ignoring empty pin current: Ix(u1:pin5)
+Ignoring empty pin current: Ix(u1:pin6)
+Ignoring empty pin current: Ix(u1:pin8)
+Ignoring empty pin current: Ix(u1:pin10)
+Ignoring empty pin current: Ix(u1:pin12)
+Changing Tseed to 5.85938e-12
+Changing Tseed to 5.85937e-14
+Heightened Def Con from 2.19767e-13 to 6e-05
+Total elapsed time: 5.636 seconds.
+

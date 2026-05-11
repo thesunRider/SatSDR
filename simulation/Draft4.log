@@ -1,0 +1,12 @@
+LTspice 24.0.12 for Windows
+Circuit: * D:\projects\electronics\SatSDR\simulation\Draft4.asc
+Start Time: Sun May 10 04:17:14 2026
+solver = Normal
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = trap
+.OP point found by inspection.
+Heightened Def Con from 2.46342 to 2.46342
+Total elapsed time: 415.916 seconds.
+

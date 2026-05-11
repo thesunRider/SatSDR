@@ -44,10 +44,25 @@ The parameters from below are verified from reddit users (especially frequency a
 ## Architecture
 Ability to configure the frequency if needed - Currently configured for Meteor, need to make switchable components to make it work for 144 Mhz Nasa downlink too.
 
+Clock1 : 250/2 = 125Mhz
+Clock2 : 250/19 = 13.15Mhz, 14.3Mhz
+		 250/20 = 12.5Mhz, 13.7Mhz
+		 250/21 = 11.9Mhz, 13.1Mhz
+
+Signal is: 137.8Mhz to 138Mhz
+Hence frequency coverage is:
+13.15Mhz: 138.15Mhz, 139.35Mhz
+12.5Mhz:  137.5Mhz , 138.7Mhz
+11.9Mhz:  136.9Mhz , 138.1Mhz
+
+Bw: 1.2Mhz
+Mix1: 137.9Mhz  - 125Mhz = 12.9Mhz
+Mix2: 12.9Mhz - 12.5Mhz
+
 
 									             ----LPF (1st order LC - 130Mhz) --LO (Si5351 130Mhz)
 												 |
-Antenna (137.9Mhz) - BPF (137-138.5Mhz) - LNA - MIXER - BPF(8-9Mhz) - Kiss Mixer - LNA - LPF - ADC (1Mhz) 
+Antenna (137.9Mhz) - BPF (137-138.5Mhz) - LNA - MIXER - BPF(7-9Mhz) - Kiss Mixer - LNA - LPF - ADC (1Mhz) 
 																			|
 																			----- LPF (1st order LC - 10Mhz) --- LO (Si5351 8Mhz)
 
@@ -69,6 +84,8 @@ SWR Meaured:
 ### BPF 
 A simple LC third order Bandpass filter, tuned with nano VNA
 Reference from:
+
+https://github.com/cernohorsky/137MHz-BandPassFilter
 
 Bandwidth Measured:
 Insertion Loss Measured:
@@ -107,3 +124,15 @@ New adc speed: 2.6Ms/s
 Bandwidth: 1.3Mhz Usable: 1.1Ms/s easily tranmsittable through libpicobase100tx
 
 
+## Reference
+
+Amplifier and Mixer - https://www.n6qw.com/MC1496.html
+Double balacned kiss mixer - https://www.vk2sja.org/piffle/2014/10/10/mixer-melodies-kiss-kiss-v2-and-double-kiss/
+
+
+https://github.com/carlk3/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico
+
+We can save to sdcard instead of dummping to PC
+
+Metero m2 sample: https://chaospixel.com/pub/rtlsdr/gqrx_meteor/samples/
+Sample data details: https://blog.chaospixel.com/linux/2019/12/receive-meteor-satellite-images-with-rtlsdr-gqrx-linux.html
